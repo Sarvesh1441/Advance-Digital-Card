@@ -119,7 +119,6 @@
     line-height: 1.1em; 
   }
   
- 
   .card .content .cardContent h3 span {
     font-size: 12px; 
     font-weight: 300; 
@@ -135,7 +134,6 @@
     flex-direction: row; 
   }
   
- 
   .card .sci li {
     margin: 0 10px; 
     transform: translateY(40px); 
@@ -144,23 +142,19 @@
     transition-delay: calc(0.1s * var(--i)); 
   }
   
-
   .card .sci li a {
     font-size: 24px; 
   }
   
- 
   .card:hover .content {
     opacity: 1; 
     transform: translateY(-20px); 
   }
   
- 
   .card:hover .sci li {
     transform: translateY(0px); 
     opacity: 1; 
   }
-  
   
   @keyframes colorful {
     0% {
